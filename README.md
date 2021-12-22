@@ -14,11 +14,7 @@ We have implemented the following Predictors :
 
 Usage : (from src directory - run "make" command first in the src directory to compile and generate executable)
 # To run CUSTOM TourSHARE PREDICTOR 
-To run Local replace custom:0 with custom:1, 
-
-to run Perceptron replace custom:0 with custom:2
-
-to run TAGE replace custom:0 with custom:3)
+(To run Local predictor use custom:1, to run perceptron predictor use custom:2, to run Tage predictor use custom:3)
 
 bunzip2 -kc ../traces/fp_1.bz2 | ./predictor --custom:0
 
