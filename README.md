@@ -12,7 +12,7 @@ We have implemented the following Predictors :
 *Note - Tage Predictor is not completely Explained almost anywhere, so the implementation might be different from others...
 
 
-Usage : (from src directory - run "make" command first in the src directory to compile and generate executable)
+Usage : (run "make" command first in the src directory to compile and generate executable, next run any predictor using the example below)
 # To run CUSTOM TourSHARE PREDICTOR 
 (To run Local predictor use custom:1, to run perceptron predictor use custom:2, to run Tage predictor use custom:3)
 
