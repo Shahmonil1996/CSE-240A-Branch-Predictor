@@ -30,6 +30,11 @@ extern const char *email;
 #define GSHARE      1
 #define TOURNAMENT  2
 #define CUSTOM      3
+
+#define CUSTOM_TOURSHARE  0
+#define CUSTOM_LOCAL      1
+#define CUSTOM_PERCEPTRON 2
+#define CUSTOM_TAGE       3
 extern const char *bpName[];
 
 // Definitions for 2-bit counters
@@ -46,7 +51,7 @@ extern int lhistoryBits; // Number of bits used for Local History
 extern int pcIndexBits;  // Number of bits used for PC index
 extern int bpType;       // Branch Prediction Type
 extern int verbose;
-
+extern int customType;
 //------------------------------------//
 //    Predictor Function Prototypes   //
 //------------------------------------//
