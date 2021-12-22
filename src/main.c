@@ -28,7 +28,11 @@ usage()
   fprintf(stderr,"    static\n"
                  "    gshare:<# ghistory>\n"
                  "    tournament:<# ghistory>:<# lhistory>:<# index>\n"
-                 "    custom\n");
+                 "    custom:0/1/2/3\n"
+                 "    0 - TourShare\n"
+                 "    1 - Local\n"
+                 "    2 - Perceptron\n"
+                 "    3 - TAGE\n");
 }
 
 // Process an option and update the predictor
