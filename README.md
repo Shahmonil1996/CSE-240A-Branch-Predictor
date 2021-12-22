@@ -1,4 +1,4 @@
-# CSE-240A-BRanch-Predictor
+# CSE-240A-Branch-Predictor
 
 The purpose of this project is to simulate multiple Branch Predictors and calculate the mispredction rates for given traces.
 
